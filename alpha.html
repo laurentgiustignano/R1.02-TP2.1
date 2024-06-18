@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Séparation des Préoccupations - Alpha</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+            }
+
+            header {
+                text-align: center;
+                font-size: 2em;
+            }
+
+            footer {
+                text-align: center;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-transform: capitalize;text-decoration: underline">
+                Exercice de Séparation des Préoccupations
+            </h1>
+        </header>
+        <main>
+            <section style="font-size: 1.2em">
+                <h2 style="text-decoration: underline;">
+                    Introduction
+                </h2>
+                <p style="font-family: 'Monotype Corsiva', cursive">
+                    Bienvenue dans cet exercice. Vous allez apprendre à séparer les préoccupations entre HTML et CSS.
+                </p>
+            </section>
+            <section>
+                <h2 style="text-decoration: overline;">
+                    Instructions
+                </h2>
+                <p style="font-size: 1.2em;font-family: 'Monotype Corsiva', cursive;text-align: right;">
+                    Le format de cette page n'est vraiment pas acceptable. On y retrouve du code CSS au milieu du texte
+                    HTML. C'est réellement compliqué à maintenir, et à faire évoluer. Pour corriger cela, il faut
+                    parcourir ce fichier, et en extraire les parties CSS pour les appliquer dans une feuille de style
+                    CSS.
+                </p>
+                <p style="font-size: 1.2em;font-family: 'Monotype Corsiva', cursive;text-align: right;">
+                    Un exemple de code à ne pas faire :
+                </p>
+                <blockquote>
+                    <code style="font-family: 'monaco', serif">
+                        &lt;h2 style="text-decoration: underline"&gt;Instructions&lt;/h2&gt;
+                    </code>
+                </blockquote>
+                <p style="font-family: Braggadocio, fantasy; text-align: left;">
+                    Il faut absolument éviter ce genre de chose
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p style="font-family: 'Lucida Grande',sans-serif;">
+                &copy; 2024 Exercice de Séparation des Préoccupations</p>
+        </footer>
+    </body>
+</html>
